@@ -4,9 +4,14 @@ body {
   min-height: 100vh;
 }
 
+:root {
+  --themecolor1: darkmagenta;
+  --themecolor2: royalblue;
+}
+
 header {
   height: 72px;
-  background: darkmagenta;
+  background: var(--themecolor1);
   color: white;
   font-size: xx-large;
   font-weight: bold;
@@ -18,7 +23,7 @@ header {
 footer {
   height: 72px;
   background: #eee;
-  color: darkmagenta;
+  color: var(--themecolor1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +32,7 @@ footer {
 nav {
   width: 300px;
   min-width: 150px;
-  background: royalblue;
+  background: var(--themecolor2);
   box-sizing: border-box;
   display: flex;
 }
@@ -40,6 +45,10 @@ nav {
   max-height: 200px;
   padding: 10px;
   margin: 5px;
+}
+
+.tile:hover {
+    color: var(--themecolor2);
 }
 
 main {
@@ -56,6 +65,10 @@ main {
 a {
   color: white;
   text-decoration: none;
+}
+
+li:hover {
+    background-color: blue;
 }
 
 ul {
