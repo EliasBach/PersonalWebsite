@@ -1,0 +1,19 @@
+header {
+    background-color: aliceblue;
+}
+
+main {
+    background-color: azure;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+.tile {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    max-width: 300px;
+    max-height: 200px;
+}
