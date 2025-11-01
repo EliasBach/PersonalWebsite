@@ -1,6 +1,6 @@
 :root {
-  --themecolor1: darkmagenta;
-  --themecolor2: royalblue;
+  --themecolor1: rgb(17, 196, 139);
+  --themecolor2: rgb(51, 30, 188);
 }
 
 body {
@@ -16,6 +16,7 @@ header {
   color: white;
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 10px
 }
 
 footer {
@@ -29,6 +30,7 @@ footer {
 nav {
   background: var(--themecolor2);
   text-align: right;
+  padding: 5px
 }
 
 .nav-link {
@@ -62,6 +64,16 @@ main {
   border: 2px solid #eee;
   box-shadow: 10px 10px 30px rgba(0,0,0,.2);
   border-radius: 10px;
+}
+
+.project-img {
+  width: 100px;
+  height: auto;
+}
+
+.project-title {
+  color: var(--themecolor1);
+  font-weight: bold;
 }
 
 .project-tile:hover {
