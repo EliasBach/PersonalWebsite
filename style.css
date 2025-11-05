@@ -34,17 +34,19 @@ nav {
   padding: 5px
 }
 
-.nav-link {
+.nav-button {
   font-size: 1rem;
   color: white;
+  background: var(--themecolor2);
+  border-style: none;
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav-button:hover, .nav-button.active {
   color: var(--themecolor1);
 }
 
-.nav-link:active {
+.nav-button:active {
   color: var(--themecolor2);
 }
 
@@ -53,7 +55,7 @@ main {
 }
 
 /* SECTION*/
-.Projects {
+#Projects {
   display: flex;
   flex-wrap: wrap;
   padding: 1%; 
@@ -100,7 +102,14 @@ main {
 }
 
 /* SECTION*/
-.About {
+#About {
   background-color: rgb(180, 174, 174);
-  display: none;
+}
+
+#Experiments {
+   background-color: rgb(127, 109, 109);
+}
+
+#Contact {
+  background-color: rgb(223, 136, 136);
 }
