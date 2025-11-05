@@ -1,7 +1,8 @@
 :root {
-  --themecolor1: rgb(17, 196, 139);
-  --themecolor2: rgb(51, 30, 188);
+  --themecolor1: #15183b;
+  --themecolor2: #5b5bda;
 }
+/*https://www.figma.com/color-wheel/*/
 
 body {
   font-family:'Segoe UI', 'sans-serif';
@@ -39,8 +40,12 @@ nav {
   text-decoration: none;
 }
 
-.nav-link:active {
+.nav-link:hover {
   color: var(--themecolor1);
+}
+
+.nav-link:active {
+  color: var(--themecolor2);
 }
 
 main {
@@ -59,25 +64,39 @@ main {
   width: clamp(250px, 20vw, 800px);
   aspect-ratio: 1.618 / 1;
   max-width: 500px;
-  padding: 1%;
   margin: 1%;
   border: 2px solid #eee;
   box-shadow: 10px 10px 30px rgba(0,0,0,.2);
   border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  align-content: end;
+  background-size: cover;
 }
 
-.project-img {
-  width: 100px;
-  height: auto;
+.project-tile:hover {
+  filter: brightness(0.75)
+}
+
+#project-001 {
+  background-image: url(assets/test_image.jpg);
+}
+
+#project-002 {
+  background-image: url(assets/placeholder_img.svg);
 }
 
 .project-title {
   color: var(--themecolor1);
   font-weight: bold;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.project-tile:hover {
-  color: var(--themecolor2);
+.project-subtitle {
+  color: var(--themecolor1);
+  font-size: 1.2rem;
+  background-color: rgb(255, 255, 255, 0.75);
 }
 
 /* SECTION*/
