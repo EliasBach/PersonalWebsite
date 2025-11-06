@@ -107,7 +107,49 @@ main {
 
 /* SECTION: About*/
 #About {
-  background-color: rgb(180, 174, 174);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+}
+
+.cv {
+  margin-top: 1%;
+  font-size: 1.2rem;
+  font-style: italic;
+  border-style: solid;
+}
+
+.cv-experience {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: normal;
+}
+
+.cv-education {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: normal;
+}
+
+.cv-text {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.cv-icon-H {
+  display: inline;
+}
+
+.cv-icon {
+  display: block;
+  margin: 0 auto;
 }
 
 /* SECTION: Contact*/
