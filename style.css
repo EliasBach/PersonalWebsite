@@ -20,6 +20,10 @@ header {
   padding: 10px;
 }
 
+.logo-main {
+  width: 100px
+}
+
 footer {
   background: #eee;
   color: var(--themecolor1);
@@ -30,7 +34,6 @@ footer {
 
 nav {
   background: var(--themecolor2);
-  text-align: right;
   padding: 5px;
 }
 
