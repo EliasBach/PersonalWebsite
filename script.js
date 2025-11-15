@@ -27,6 +27,6 @@ function changeTab() {
   });
 }
 
-const defaultTab = document.getElementById('About');
+const defaultTab = document.getElementById('Projects');
 defaultTab.style.display = 'flex';
 const defaultBtn = document.querySelector(defaultTab.id + '-btn');
